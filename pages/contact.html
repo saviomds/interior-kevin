@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <title>Welcome</title>
+  </head>
+  <body>
+    <div class="main-nav">
+      <div class="logo">
+        <i class="fa-solid fa-house"></i>
+        <i class="fa-solid fa-bars" id="menu"></i>
+        <i class="fa-solid fa-xmark" id="menuClose"></i></div>
+      <div class="nav-links">
+        <ul class="items">
+          <li class="item"><a href="index.html">Home</a></li>
+          <li class="item"><a href="about.html">About</a></li>
+          <li class="item"><a href="portfolio.html">Portfolio</a></li>
+          <li class="item"><a href="service.html">Service</a></li>
+          <li class="item">
+            <a href="contact.html" class="active">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="main-section">
+      <div class="header" id="header">
+        <h1>Contact</h1>
+        <form  id="main-form">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+              
+              <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+            
+              <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+            </div>
+            <div class="form-group">
+             
+              <textarea id="message"  name="message" placeholder="Message" required></textarea>
+            </div>
+            <button type="submit" class="button">Send</button>
+            </form>
+          </div>
+        </form>
+      </div>
+    </section>
+    <div class="main-footer">
+      <p>@copyright 2024</p>
+    </div>
+    <script src="../js/main.js"></script>
+
+  </body>
+</html>
